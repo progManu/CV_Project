@@ -25,6 +25,22 @@ Just flipping does not affect much the result.
 
 Using the strong data aug, we obtain worst results because the network is not very expressive
 
+## Initialization considerations
+
+### Xavier Initialization
+Xavier initialization, also known as Glorot initialization, is a widely used method for initializing the weights of neural network layers. It is named after Xavier Glorot, one of the researchers who proposed this initialization technique. Xavier initialization is designed to address the challenges of training deep neural networks by carefully selecting the initial values of weights to ensure a good balance between the input and output of each layer.
+
+The initialization strategy for Xavier initialization is as follows:
+
+For a layer with $$n^{in}$$ input units and $$n^{out}$$ output units, the weights are initialized by drawing random values from a distribution with mean 0 and variance $$\frac{2}{n_{in}+n_{out}}$$
+This initialization is particularly effective when used with activation functions that have outputs in the range of -1 to 1, such as tanh. It helps prevent the vanishing or exploding gradient problems during training, which can be common in deep networks.
+
+### He Initialization
+
+ initialization technique designed to address the challenges of training deep neural networks with rectified linear units (ReLU) activations. This initialization method is also known as Kaiming initialization. ReLU is a popular activation function in deep neural networks
+
+ The He initialization strategy for a layer with $$n_{in}$$ input units is to initialize the weights by drawing random values from a distribution with mean 0 and variance $$\frac{2}{n_in}$$
+
 ## Aumenti di accuracy
 
 ### SGD
