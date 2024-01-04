@@ -53,3 +53,5 @@ This initialization is particularly effective when used with activation function
 - Rete con batch normalization e dropout, data augmentation (rhf), early stopping (GL + momentum a 0.92): 44,4%
 - Rete con batch normalization e 2 dropout, data augmentation (rhf): 34,7%
 - Rete con batch normalization e 2 dropout, data augmentation (rhf), early stopping (GL + momentum a 0.92): 37,8%
+- Rete con batch normalization e data augmentation (rhf): 46,2%
+- Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.92): 56,9%
