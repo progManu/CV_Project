@@ -32,14 +32,14 @@ Xavier initialization is a widely used method for initializing the weights of ne
 
 The initialization strategy for Xavier initialization is as follows:
 
-For a layer with \\(n^{in}\\) input units and \\(n^{out}\\) output units, the weights are initialized by drawing random values from a distribution with mean 0 and variance $$\frac{2}{n_{in}+n_{out}}$$
+For a layer with $n^{in}$ input units and $n^{out}$ output units, the weights are initialized by drawing random values from a distribution with mean 0 and variance $$\frac{2}{n_{in}+n_{out}}$$
 This initialization is particularly effective when used with activation functions that have outputs in the range of -1 to 1, such as tanh. It helps prevent the vanishing or exploding gradient problems during training, which can be common in deep networks.
 
 ### He Initialization
 
  It is an initialization technique designed to address the challenges of training deep neural networks with rectified linear units (ReLU) activations.
 
- The He initialization strategy for a layer with \\(n_{in}\\) input units is to initialize the weights by drawing random values from a distribution with mean 0 and variance $$\frac{2}{n_in}$$
+ The He initialization strategy for a layer with $n_{in}$ input units is to initialize the weights by drawing random values from a distribution with mean 0 and variance $$\frac{2}{n_{in}}$$
 
 ## Aumenti di accuracy
 
