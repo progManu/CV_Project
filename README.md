@@ -53,5 +53,13 @@ This initialization is particularly effective when used with activation function
 - Rete con batch normalization e dropout, data augmentation (rhf), early stopping (GL + momentum a 0.92): 44,4%
 - Rete con batch normalization e 2 dropout, data augmentation (rhf): 34,7%
 - Rete con batch normalization e 2 dropout, data augmentation (rhf), early stopping (GL + momentum a 0.92): 37,8%
-- Rete con batch normalization e data augmentation (rhf): 46,2%
-- Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.92): 56,9%
+- Rete con batch normalization e data augmentation (rhf), filtri di dimensione crescente: 46,2%
+- Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.92), filtri di dimensione crescente: 56,9%
+- Rete con batch normalization e data augmentation (rhf), He initialization: 46,2%
+- Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.92), He initialization: 57,8%
+- Rete con batch normalization e data augmentation (rhf), batch size 16: 48,9%
+- Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.98), batch size 16: 54,7%
+- Rete con batch normalization e data augmentation (rhf), batch size 64: 55,1%
+- Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.98), batch size 64: 57,8% (convergenza molto veloce)
+- Rete con batch normalization e data augmentation (rhf), doppio numero filtri per layer convoluzionale: 54,2%
+- Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.98), doppio numero filtri per layer convoluzionale: 56,9% (convergenza molto veloce)
