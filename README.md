@@ -32,4 +32,8 @@ Using the strong data aug, we obtain worst results because the network is not ve
 - Rete normale con early stopping basata su GL: 25,7%
 - Rete normale con data augmentation (random horizontal flip): 30% (verifica)
 - Rete con batch normalization e data augmentation (rhf): 52%
-- Rete con batch normalization e data augmentation (rhf) early stopping: 59%
+- Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.98): 59%
+- Rete con batch normalization e dropout, data augmentation (rhf): 44,8%
+- Rete con batch normalization e dropout, data augmentation (rhf), early stopping (GL + momentum a 0.92): 44,4%
+- Rete con batch normalization e 2 dropout, data augmentation (rhf): 34,7%
+- Rete con batch normalization e 2 dropout, data augmentation (rhf), early stopping (GL + momentum a 0.92): 37,8%
