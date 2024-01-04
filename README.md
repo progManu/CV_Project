@@ -26,6 +26,8 @@ Just flipping does not affect much the result.
 Using the strong data aug, we obtain worst results because the network is not very expressive
 
 ## Aumenti di accuracy
+
+### SGD
 - Rete normale senza early stopping: 26,7%
 - Rete normale con early stopping basata su GL: 25,7%
 - Rete normale con data augmentation (random horizontal flip): 30% (verifica)
