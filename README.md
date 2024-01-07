@@ -80,3 +80,4 @@ This initialization is particularly effective when used with activation function
 ## Transfer Learning
 - AlexNet, resize, central crop, data augmentation (flip), Adam, convert to RGB: 67,7%
 - AlexNet, resize, central crop, data augmentation (flip), riscalato [0,1], normalizzazione, Adam, convert to RGB: 84,4%
+- AlexNet, resize, central crop, data augmentation (flip), riscalato [0,1], normalizzazione, Adam, convert to RGB, SVM (con C=[0.01,0.1,1,10,100], cambia di 0.4%): 82,2%
