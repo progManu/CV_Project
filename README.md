@@ -69,3 +69,9 @@ This initialization is particularly effective when used with activation function
 - Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.98): 55,6%
 - Rete con batch normalization e data augmentation (rhf), doppio numero filtri per layer convoluzionale: 57.8%
 - Rete con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.95), doppio numero filtri per layer convoluzionale: 61,8%
+
+
+- Ensemble of networks: 56,4%
+- Ensemble of networks (early stopping): 56,4%
+- Ensemble con batch normalization e data augmentation (rhf), doppio numero filtri per layer convoluzionale: 60.6%
+- Ensemble con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.95), doppio numero filtri per layer convoluzionale: 60.4%
