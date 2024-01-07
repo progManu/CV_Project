@@ -75,3 +75,7 @@ This initialization is particularly effective when used with activation function
 - Ensemble of networks (early stopping): 56,4%
 - Ensemble con batch normalization e data augmentation (rhf), doppio numero filtri per layer convoluzionale: 60.6%
 - Ensemble con batch normalization e data augmentation (rhf), early stopping (GL + momentum a 0.95), doppio numero filtri per layer convoluzionale: 60.4%
+- 
+
+## Transfer Learning
+AlexNet, resize, central crop, data augmentation (flip), riscalato [0,1], no normalizzazione, Adam, convert to RGB: 83,6%
